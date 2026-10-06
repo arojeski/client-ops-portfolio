@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="googlebot" content="noindex, nofollow, noarchive">
+  <meta name="description" content="Anastasia Rojeski — Client Operations & Technology Leader with experience in regulated data services, team leadership, project coordination, and consultative technology sales.">
+  <title>Anastasia Rojeski | Client Operations & Technology Leader</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top">AR</a>
+  <nav aria-label="Primary navigation">
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#work">Selected Work</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <p class="eyebrow">Vancouver, Washington · Client Operations · Technology · Leadership</p>
+  <h1>Anastasia<br><span>Rojeski.</span></h1>
+  <p class="lede">I turn complex technology, data, and client needs into clear plans—and work that actually gets done.</p>
+  <div class="actions">
+    <a class="button primary" href="Anastasia_Rojeski_Resume.pdf" target="_blank" rel="noopener">View résumé</a>
+    <a class="button secondary email-link" href="#" role="button">Email me</a>
+  </div>
+  <div class="metrics" aria-label="Career highlights">
+    <div><strong>7+ years</strong><span>client & data operations</span></div>
+    <div><strong>5–10 TB</strong><span>typical migration scope</span></div>
+    <div><strong>Global</strong><span>cross-functional collaboration</span></div>
+  </div>
+</section>
+
+<section id="about" class="section two-col">
+  <div><p class="kicker">01 / About</p><h2>Technology is complicated.<br>Working together shouldn't be.</h2></div>
+  <div class="copy">
+    <p>I'm a client-focused technology professional and team leader with a background spanning consultative technology sales, regulated data services, customer communication, and operational leadership.</p>
+    <p>At Smarsh, I work at the intersection of clients, technology, and operations—coordinating priorities, translating technical requirements, resolving escalations, and helping teams move complex work from intake to completion.</p>
+    <p>Earlier in my career, I worked in technology sales with Microsoft, where I learned to start with the customer's actual need and make technology understandable. That approach still shapes how I lead, communicate, and solve problems today.</p>
+  </div>
+</section>
+
+<section id="experience" class="section">
+  <p class="kicker">02 / Experience</p>
+  <h2>Built around clients.<br>Grounded in execution.</h2>
+  <div class="timeline">
+    <article><div class="date">2021 — PRESENT</div><div><h3>Customer Data Services Team Lead</h3><p class="company">Smarsh</p><p>Lead client-facing data services work for organizations with complex regulatory and technical requirements. Coordinate migration and lifecycle projects, manage escalations, prioritize team workloads, coach employees, and communicate across distributed teams.</p></div></article>
+    <article><div class="date">2018 — 2021</div><div><h3>Client Data Services / Data Operations</h3><p class="company">Smarsh</p><p>Supported customers through data migrations, import/export workflows, troubleshooting, media cataloging, and lifecycle processes while partnering with technical and operational teams to deliver accurate outcomes.</p></div></article>
+    <article><div class="date">EARLIER CAREER</div><div><h3>Product Adviser · Technology Sales</h3><p class="company">Microsoft · Portland, Oregon</p><p>Used discovery-based conversations to understand customer needs, recommend technology solutions, explain technical products clearly, and build strong customer relationships.</p></div></article>
+  </div>
+</section>
+
+<section id="work" class="section">
+  <p class="kicker">03 / Selected Work</p>
+  <h2>What I bring to the table.</h2>
+  <div class="cards">
+    <article class="card"><span>01</span><h3>Complex Data Migrations</h3><p>Coordinate client migrations commonly involving 5–10 TB of data, balancing technical requirements, deadlines, stakeholders, and clear client communication.</p><small>PROJECT COORDINATION · DATA · CLIENT DELIVERY</small></article>
+    <article class="card"><span>02</span><h3>Client Escalations</h3><p>Turn high-friction situations into actionable plans by identifying the underlying need, setting expectations, aligning internal resources, and keeping communication moving.</p><small>RELATIONSHIP MANAGEMENT · DE-ESCALATION</small></article>
+    <article class="card"><span>03</span><h3>Team Leadership</h3><p>Coach and train team members, manage priorities and assignments, support performance reviews and quarterly goals, and adapt teaching approaches while maintaining consistent standards.</p><small>LEADERSHIP · COACHING · OPERATIONS</small></article>
+    <article class="card"><span>04</span><h3>Global Collaboration</h3><p>Work across teams and stakeholders in the United States, India, and Costa Rica, keeping ownership, status, risk, and next steps understandable across functions and time zones.</p><small>STAKEHOLDERS · CROSS-FUNCTIONAL DELIVERY</small></article>
+  </div>
+</section>
+
+<section class="section skills">
+  <p class="kicker">04 / Toolkit</p>
+  <h2>Skills & platforms.</h2>
+  <div class="skill-grid">
+    <div><h3>Client</h3><p>Relationship Management · Discovery · Stakeholder Communication · Escalation Management · Consultative Communication</p></div>
+    <div><h3>Operations</h3><p>Project Coordination · Process Improvement · Data Migration · Prioritization · Regulated Environments</p></div>
+    <div><h3>Leadership</h3><p>Team Coaching · Training · Performance Reviews · Goal Setting · Cross-Functional Collaboration</p></div>
+    <div><h3>Technology</h3><p>Salesforce · Jira · Microsoft CRM · SaaS Environments · Import/Export Workflows · Technical Troubleshooting</p></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <p class="kicker">05 / Contact</p>
+  <h2>Let's make complicated work<br><span>feel manageable.</span></h2>
+  <p>I'm open to opportunities across client operations, project and implementation work, customer success, technology sales, and people leadership.</p>
+  <a class="email email-link" href="#" role="button">Email me ↗</a>
+</section>
+</main>
+
+<footer><span>© <span id="year"></span> Anastasia Rojeski</span><span>Vancouver, WA</span></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+// Assemble the address at click-time so it is not written plainly in the page source.
+document.querySelectorAll('.email-link').forEach(function(link) {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const user = ['Ana','rojeski'].join('.');
+    const domain = ['gmail','com'].join('.');
+    window.location.href = 'mailto:' + user + '@' + domain;
+  });
+});
+</script>
+</body>
+</html>
